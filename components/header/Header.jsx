@@ -1,7 +1,8 @@
 import { Heading, Stack, Switch, Text } from '@chakra-ui/react'
-import React from 'react'
+
 
 function Header() {
+
   return (
     <Stack alignItems='center' justifyContent='center' pt={16} gap={5}>
       <Heading as='h1' textAlign='center' fontFamily='Montserrat, sans-serif' color='hsl(233, 13%, 49%)'>Our Pricing</Heading>
